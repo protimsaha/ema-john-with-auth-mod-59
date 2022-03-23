@@ -1,6 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr  1fr;
+    /* position: relative; */
 }
 .shop{
     display: grid;
@@ -10,6 +11,9 @@
 }
 .cart-container{
     background-color: rgba(255, 224, 179, 1);
+    display: flex;
+    justify-content: center;
+   
 }
 @media screen and (max-width:1067px) {
  .shop{
