@@ -20,7 +20,8 @@ const Cart = ({ cart }) => {
             <p>Total price: ${total}</p>
             <p>Total shipping:${shipping} </p>
             <p>Tax:$ {tax.toFixed(2)} </p>
-            <h5>Grand Total:${parseFloat(grandTotal.toFixed(2))} </h5>
+            <h4>Grand Total:${parseFloat(grandTotal.toFixed(2))}</h4>
+            {cart.children}
         </div>
     );
 };
