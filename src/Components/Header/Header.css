@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: #1C2B35;
     height: 80px;
     display: flex;
@@ -7,13 +7,29 @@
     padding-left: 140px;
     padding-right: 140px;
 }
-.links a{
+
+.links a {
     font-size: 17px;
     text-decoration: none;
     color: white;
     margin-right: 35px;
 }
-.links a:hover{
+
+.links a:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.button-signout {
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    border: none;
+    background-color: #1C2B35;
+}
+
+.button-signout:hover {
     color: orange;
     cursor: pointer;
 }
